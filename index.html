@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="with-device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- FIM GOOGLE FONTES -->
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="menu.js" defer></script>
+    <script src="game.js" defer></script>  
+    <script>
+        document.querySelector('.botao-fixo-direito').addEventListener('click', function() {
+                alert('Botão clicado!');
+            });
+    </script>  
+    <title>Igor Ribeiro</title>
+    <link rel="icon" href="D:\Projetos\Portifolio\images\logo.webp" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img src="D:\Projetos\Portifolio\images\logo.webp" alt="" style="width: 100px; height: auto; display: inline-block; margin: 0 10px;">
+                </a>
+            </div><!--logo-->
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Soft Skills</a></li>
+                    <li><a href="#especialidades">Hard Skills</a></li>
+                    <li><a href="#">Projetos</a></li>
+                </ul>
+            </nav>
+            
+            <!-- Botões de idiomas -->
+            <!-- Dropdown de idiomas -->
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="bi bi-translate"></i> Idiomas
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                    <li>
+                        <button class="dropdown-item" onclick="changeLanguage('pt')">
+                            <i class="bi bi-flag-fill text-primary me-2"></i> Português
+                        </button>
+                    </li>
+                    <li>
+                        <button class="dropdown-item" onclick="changeLanguage('en')">
+                            <i class="bi bi-flag-fill text-success me-2"></i> English
+                        </button>
+                    </li>
+                    <li>
+                        <button class="dropdown-item" onclick="changeLanguage('es')">
+                            <i class="bi bi-flag-fill text-danger me-2"></i> Español
+                        </button>
+                    </li>
+                </ul>
+            </div>
+            
+
+            <div class="btn-contato">
+                <a href="#contatoId">
+                    <button>Contato</button>
+                </a>
+            </div><!--btn-contato-->
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#especialidades">Hard Skills</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Projetos</a></li>
+                        <li><a href="#contatoId">Contato</a></li>
+                    </ul>
+                </nav>
+
+            </div><!--menu-mobile-->            
+        </div><!--interface-->
+    </header>
+
+    <main>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1 id="greeting">Olá, me chamo Igor<span>.</span></h1>
+                        <p id="description">Atuo na área de desenvolvimento de software, e análise de sistemas com experiência em desenvolvimento back-end em .Net Framework.</p>
+
+                        <div class="btn-contato">
+                            <a href="#contatoId">
+                                <button>Entre em contato</button>
+                            </a>
+                        </div>
+                    </div><!--txt-topo-site-->
+
+                    <div class="img-topo-site">
+                        <img src="./images/Foto.jpg" alt="" style="width: 400px; height: auto; display: inline-block; margin: 0 10px;">
+                    </div><!--img-topo-site-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--topo-do-site-->
+       
+        <section class="sobre">
+            <div class="interface">
+                
+                <div class="flex">
+
+                    <div class="txt-sobre">
+                        <h2>MUITO PRAZER, <span>SOU IGOR RIBEIRO.</span></h2>
+                        <p>Olá, meu nome é Igor Ribeiro, tenho 30 anos e sou um profissional com uma trajetória difersificada. Iniciei minha jornada acadêmica aos 27 anos, ingressando na faculdade de Análise e Desenvolvimento de Sistemas, um passo determinante para minha paixão por tecnologia e inovação.</p>
+                        <p>Com uma sólida bagagem de 5 anos como suporte tecnico, desenvolvi habilidades essenciais de comunicação, resolução de problemas e pensamento orientado ao cliente, as quais considero fundamentais para qualquer área profissional. Essa experiência me permitiu entender a importância do relacionamento com cliente e a capacidade de identificar e atender às suas necessidades de forma eficaz.</p>
+                        <p>Aos 30 anos, estou em transição para a área de Inteligência Artificial e pretendo realizar minha segunda formação acadêmica, com foco em Machine Learning, IA Generativa e Processamento de Linguagem Natural, preparando-me para atuar com ênfase em dados e suas aplicações práticas.</p>
+                        <div class="btn-social" style="display: flex; justify-content: center; gap: 10px;">
+                            <a href="#https://www.instagram.com/igorp_ribeiro1/#"><button><i class="bi bi-instagram"></i></button></a>
+                            <a href="#"><button><i class="bi bi-github"></i></button></a>
+                            <a href="#"><button><i class="bi bi-linkedin"></i></button></a> 
+                        </div><!--btn-social-->
+                    </div><!--txt-sobre-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--sobre-->
+
+        <section class="softskills-selector">
+            <div class="interface">
+                <h2 class="titulo">SOFT <span>SKILLS</span></h2>
+                <div class="selector-container">
+                    <label for="softskills-select">Escolha uma Soft Skill:</label>
+                    <select id="softskills-select" name="softskills">
+                        <option value="api">API - Desenvolvimento e Consumo</option>
+                        <option value="soap">SOAP - Web Services</option>
+                        <option value="algoritmos">Algoritmos - Soluções Matemáticas</option>
+                        <option value="comunicacao">Comunicação - Habilidade de expressão clara</option>
+                        <option value="trabalho-equipe">Trabalho em Equipe - Colaboração e adaptação</option>
+                        <option value="gestao">Gestão de Projetos - Organização e liderança</option>
+                    </select>
+                </div>
+                <div id="softskills-description" class="description">
+                    <p>Selecione uma habilidade para ver mais informações sobre ela.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="especiliadades">
+            <div id="especialidades" class="interface">
+                <h2 class="titulo">HARD <span>SKILLS.</span></h2>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <i class="bi bi-cloud"></i>
+                        <h3>API</h3>
+                        <p>Experiência no desenvolvimento e consumo de APIs, criando soluções eficientes para clientes finais e integrando serviços de maneira segura e escalável.</p>
+                    </div><!--especialidades-box-->
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-tools"></i>
+                        <h3>SOAP</h3>
+                        <p>Experiência no desenvolvimento e consumo de Web Services SOAP, criando e integrando soluções robustas para clientes finais com foco em segurança e interoperabilidade.</p>
+                    </div><!--especialidades-box-->
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-cpu"></i>
+                        <h3>Algoritmos</h3>
+                        <p>Experiência no desenvolvimento de algoritmos matemáticos, criando soluções eficientes e precisas para resolver problemas complexos e atender às necessidades específicas dos clientes.</p>
+                    </div><!--especialidades-box-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--especiliadades-->
+
+
+        <section class="portfolio">
+            <div class="interface">
+                <h2 class="titulo">MEU <span>PORTFÓLIO.</span></h2>
+                <div class="flex">
+                    <div class="img-port" style="background-image: url(images/imagem.jpg);">
+                        <div class="overlay">Projeto 1</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/imagem.jpg);">
+                        <div class="overlay">Projeto 2</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/imagem.jpg);">
+                        <div class="overlay">Projeto 3</div>
+                    </div>
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--portfolio-->
+
+        <section class="formulario">
+            <div id="contatoId" class="interface">
+                <h2 class="titulo">FALA <span>COMIGO.</span></h2>
+                <form id="contactForm">
+                    <input type="text" name="nome" id="nome" placeholder="Seu nome completo:" required>
+                    <input type="email" name="email" id="email" placeholder="Seu e-mail:" required>
+                    <input type="text" name="telefone" id="telefone" type="text" id="phone" name="phone" onkeypress="mask(this, mphone);" onblur="mask(this, mphone);" placeholder="(XX) XXXXX-XXXX" maxlength="15">
+                    <textarea name="mensagem" id="mensagem" placeholder="Sua mensagem" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+                <div id="response"></div>
+            </div><!--interface-->
+        </section><!--formulario-->
+
+        <section class="divirtase">
+            <div class="game-container">
+                <h1>Jogo da Forca</h1>
+                <div id="word"></div>
+                <div id="hangman">
+                    <img src="D:\Projetos\Portifolio\images\game.jpg" alt="Forca" id="forca-image">
+                </div>
+                <div id="letters" class="">
+                    <p>Escolha uma letra:</p>
+                    <div class="btn-game">
+                        <input type="text" id="letter-input" maxlength="1">
+                        <button onclick="guessLetter()">Adivinhar</button>
+                    </div>
+                </div>
+                <p id="wrong-letters"></p>
+                <div id="message"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img src="D:\Projetos\Portifolio\images\logo.webp" alt="Logotipo Agência Ribeiro" style="width: 150px; height: auto; display: inline-block; margin: 0 10px;">
+                    </div><!--logo-footer-->
+                    <div class="btn-social">
+                        <a href="#"><button><i class="bi bi-github"></i></button></a>
+                        <a href="#" target="_blank" rel="noopener noreferrer"><button><i class="bi bi-instagram"></i></button></a>
+                        <a href="#"><button><i class="bi bi-youtube"></i></button></a>
+                        <a href="#"><button><i class="bi bi-linkedin"></i></button></a>
+                        <a href="#"><button><i class="bi bi-twitch"></i></button></a>
+                    </div><!--btn-social-->
+                </div>
+            </div><!--line-footer-->
+
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope-fill"></i> <a href="mailto:igorpribeiro@gmail.com">igorpribeiro@gmail.com</a></p>
+            </div><!--line-footer-->
+        </div><!--interface-->
+        <a href="#"><button class="btn btn-primary botao-redondo">
+            <i class="bi bi-arrow-up"></i>
+        </button></a>
+    </footer>
+
+    <script src="translation.js" defer></script>
+    <script src="translations.json"></script>    
+    <script>
+        function mask(o, f) {
+            setTimeout(function() {
+                var v = mphone(o.value);
+                if (v != o.value) {
+                o.value = v;
+                }
+            }, 1);
+            }
+
+            function mphone(v) {
+            var r = v.replace(/\D/g, "");
+            r = r.replace(/^0/, "");
+            if (r.length > 10) {
+                r = r.replace(/^(\d\d)(\d{5})(\d{4}).*/, "($1) $2-$3");
+            } else if (r.length > 5) {
+                r = r.replace(/^(\d\d)(\d{4})(\d{0,4}).*/, "($1) $2-$3");
+            } else if (r.length > 2) {
+                r = r.replace(/^(\d\d)(\d{0,5})/, "($1) $2");
+            } else {
+                r = r.replace(/^(\d*)/, "($1");
+            }
+            return r;
+        }
+    </script>
+    <script>
+        document.getElementById("contactForm").addEventListener("submit", function (event) {
+        event.preventDefault(); // Evita o envio padrão do formulário
+
+        // Captura os dados do formulário
+        const formData = {
+            nome: document.getElementById("nome").value,
+            email: document.getElementById("email").value,
+            telefone: document.getElementById("telefone").value,
+            mensagem: document.getElementById("mensagem").value,
+        };
+
+        // Envia os dados para o PHP via Fetch API
+        fetch("sendEmail.php", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(formData),
+        })
+            .then((response) => response.json())
+            .then((data) => {
+                const responseDiv = document.getElementById("response");
+                if (data.success) {
+                    responseDiv.innerHTML = `<p style="color: green; text-align: center;">${data.success}</p>`;
+                } else {
+                    responseDiv.innerHTML = `<p style="color: red; text-align: center;">${data.error}</p>`;
+                }
+            })
+            .catch((error) => {
+                console.error("Erro:", error);
+                document.getElementById("response").innerHTML = `<p style="color: red; text-align: center;">Erro ao envio. Tente novamente mais tarde.</p>`;
+            });
+        });
+    </script>
+    <script>
+        document.getElementById('softskills-select').addEventListener('change', function() {
+            const skill = this.value;
+            let description = '';
+
+            switch(skill) {
+                case 'comunicacao':
+                    description = 'Habilidade de comunicação clara e eficaz, capaz de expressar ideias de maneira concisa e entender as necessidades de diferentes públicos.';
+                    break;
+                case 'trabalho-equipe':
+                    description = 'Capacidade de trabalhar bem em equipe, colaborando e se adaptando a diferentes ambientes de trabalho.';
+                    break;
+                case 'gestao':
+                    description = 'Experiência na gestão de projetos, com forte habilidade em organização, definição de metas e liderança.';
+                    break;
+                default:
+                    description = 'Selecione uma habilidade para ver mais informações sobre ela.';
+            }
+
+            document.getElementById('softskills-description').innerHTML = `<p>${description}</p>`;
+        });
+    </script>
+</body>
+</html>

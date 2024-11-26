@@ -1,0 +1,32 @@
+{
+    "pt": {
+        "greeting": "Olá, me chamo Igor.",
+        "description": "Atuo na área de desenvolvimento de software, e análise de sistemas com experiência em desenvolvimento back-end em .Net Framework.",
+        "about_title": "Muito prazer, sou Igor Ribeiro.",
+        "about_text": "Olá, meu nome é Igor Ribeiro, tenho 30 anos e sou um profissional com uma trajetória diversificada. Iniciei minha jornada acadêmica aos 27 anos, ingressando na faculdade de Análise e Desenvolvimento de Sistemas, um passo determinante para minha paixão por tecnologia e inovação. Com uma sólida bagagem de 5 anos como suporte técnico, desenvolvi habilidades essenciais de comunicação, resolução de problemas e pensamento orientado ao cliente, as quais considero fundamentais para qualquer área profissional. Essa experiência me permitiu entender a importância do relacionamento com cliente e a capacidade de identificar e atender às suas necessidades de forma eficaz. Aos 30 anos, estou em transição para a área de Inteligência Artificial e pretendo realizar minha segunda formação acadêmica, com foco em Machine Learning, IA Generativa e Processamento de Linguagem Natural, preparando-me para atuar com ênfase em dados e suas aplicações práticas.",
+        "skills_title": "Hard Skills",
+        "skills_api": "Experiência no desenvolvimento e consumo de APIs, criando soluções eficientes para clientes finais e integrando serviços de maneira segura e escalável.",
+        "skills_soap": "Experiência no desenvolvimento e consumo de Web Services SOAP, criando e integrando soluções robustas para clientes finais com foco em segurança e interoperabilidade.",
+        "skills_algorithms": "Experiência no desenvolvimento de algoritmos matemáticos, criando soluções eficientes e precisas para resolver problemas complexos e atender às necessidades específicas dos clientes."
+    },
+    "en": {
+        "greeting": "Hello, my name is Igor.",
+        "description": "I work in the field of software development and systems analysis with experience in back-end development using .Net Framework.",
+        "about_title": "Nice to meet you, I'm Igor Ribeiro.",
+        "about_text": "Hello, my name is Igor Ribeiro, I am 30 years old and a professional with a diverse career path. I started my academic journey at 27, enrolling in the Systems Analysis and Development program, a decisive step for my passion for technology and innovation. With a solid background of 5 years in technical support, I developed essential skills in communication, problem-solving, and client-oriented thinking, which I consider fundamental for any professional field. This experience allowed me to understand the importance of client relationships and the ability to identify and meet their needs effectively. At 30, I am transitioning to the field of Artificial Intelligence and intend to pursue my second academic degree focusing on Machine Learning, Generative AI, and Natural Language Processing, preparing to work with an emphasis on data and its practical applications.",
+        "skills_title": "Hard Skills",
+        "skills_api": "Experience in developing and consuming APIs, creating efficient solutions for end clients, and securely and scalably integrating services.",
+        "skills_soap": "Experience in developing and consuming SOAP Web Services, creating and integrating robust solutions for end clients with a focus on security and interoperability.",
+        "skills_algorithms": "Experience in developing mathematical algorithms, creating efficient and precise solutions to solve complex problems and meet specific client needs."
+    },
+    "es": {
+        "greeting": "Hola, me llamo Igor.",
+        "description": "Trabajo en el área de desarrollo de software y análisis de sistemas con experiencia en desarrollo back-end utilizando .Net Framework.",
+        "about_title": "Mucho gusto, soy Igor Ribeiro.",
+        "about_text": "Hola, mi nombre es Igor Ribeiro, tengo 30 años y soy un profesional con una trayectoria diversificada. Comencé mi carrera académica a los 27 años, ingresando en la facultad de Análisis y Desarrollo de Sistemas, un paso determinante para mi pasión por la tecnología y la innovación. Con una sólida experiencia de 5 años en soporte técnico, desarrollé habilidades esenciales en comunicación, resolución de problemas y pensamiento orientado al cliente, las cuales considero fundamentales en cualquier área profesional. Esta experiencia me permitió entender la importancia de las relaciones con los clientes y la capacidad de identificar y satisfacer sus necesidades de manera efectiva. A los 30 años, estoy en transición al área de Inteligencia Artificial y tengo la intención de realizar mi segunda formación académica, enfocándome en Machine Learning, IA Generativa y Procesamiento de Lenguaje Natural, preparándome para trabajar con énfasis en datos y sus aplicaciones prácticas.",
+        "skills_title": "Hard Skills",
+        "skills_api": "Experiencia en el desarrollo y consumo de APIs, creando soluciones eficientes para clientes finales e integrando servicios de manera segura y escalable.",
+        "skills_soap": "Experiencia en el desarrollo y consumo de Servicios Web SOAP, creando e integrando soluciones robustas para clientes finales con un enfoque en seguridad e interoperabilidad.",
+        "skills_algorithms": "Experiencia en el desarrollo de algoritmos matemáticos, creando soluciones eficientes y precisas para resolver problemas complejos y satisfacer necesidades específicas de los clientes."
+    }
+}

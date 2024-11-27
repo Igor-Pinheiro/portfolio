@@ -2,7 +2,8 @@
     "pt": {
         "greeting": "Olá, me chamo Igor.",
         "description": "Atuo na área de desenvolvimento de software, e análise de sistemas com experiência em desenvolvimento back-end em .Net Framework.",
-        "about_title": "Muito prazer, sou Igor Ribeiro.",
+        "about_title": "Muito prazer,",
+        "about_title_2": "sou Igor Ribeiro.",
         "about_text": "Olá, meu nome é Igor Ribeiro, tenho 30 anos e sou um profissional com uma trajetória diversificada. Iniciei minha jornada acadêmica aos 27 anos, ingressando na faculdade de Análise e Desenvolvimento de Sistemas, um passo determinante para minha paixão por tecnologia e inovação.",
         "about_text_2": "Com uma sólida bagagem de 5 anos como suporte técnico, desenvolvi habilidades essenciais de comunicação, resolução de problemas e pensamento orientado ao cliente, as quais considero fundamentais para qualquer área profissional. Essa experiência me permitiu entender a importância do relacionamento com cliente e a capacidade de identificar e atender às suas necessidades de forma eficaz.",
         "about_text_3": "Aos 30 anos, estou em transição para a área de Inteligência Artificial e pretendo realizar minha segunda formação acadêmica, com foco em Machine Learning, IA Generativa e Processamento de Linguagem Natural, preparando-me para atuar com ênfase em dados e suas aplicações práticas.",
@@ -14,7 +15,8 @@
     "en": {
         "greeting": "Hello, my name is Igor.",
         "description": "I work in the field of software development and systems analysis with experience in back-end development using .Net Framework.",
-        "about_title": "Nice to meet you, I'm Igor Ribeiro.",
+        "about_title": "Nice to meet you,",
+        "about_title_2": "I'm Igor Ribeiro.",
         "about_text": "Hello, my name is Igor Ribeiro, I am 30 years old and a professional with a diverse career path. I started my academic journey at 27, enrolling in the Systems Analysis and Development program, a decisive step for my passion for technology and innovation.",
         "about_text_2": "With a solid background of 5 years in technical support, I developed essential skills in communication, problem-solving, and client-oriented thinking, which I consider fundamental for any professional field. This experience allowed me to understand the importance of client relationships and the ability to identify and meet their needs effectively.",
         "about_text_3": "At 30, I am transitioning to the field of Artificial Intelligence and intend to pursue my second academic degree focusing on Machine Learning, Generative AI, and Natural Language Processing, preparing to work with an emphasis on data and its practical applications.",
@@ -26,7 +28,8 @@
     "es": {
         "greeting": "Hola, me llamo Igor.",
         "description": "Trabajo en el área de desarrollo de software y análisis de sistemas con experiencia en desarrollo back-end utilizando .Net Framework.",
-        "about_title": "Mucho gusto, soy Igor Ribeiro.",
+        "about_title": "Mucho gusto,",
+        "about_title_2": "soy Igor Ribeiro.",
         "about_text": "Hola, mi nombre es Igor Ribeiro, tengo 30 años y soy un profesional con una trayectoria diversificada. Comencé mi carrera académica a los 27 años, ingresando en la facultad de Análisis y Desarrollo de Sistemas, un paso determinante para mi pasión por la tecnología y la innovación.",
         "about_text_2": "Con una sólida experiencia de 5 años en soporte técnico, desarrollé habilidades esenciales en comunicación, resolución de problemas y pensamiento orientado al cliente, las cuales considero fundamentales en cualquier área profesional. Esta experiencia me permitió entender la importancia de las relaciones con los clientes y la capacidad de identificar y satisfacer sus necesidades de manera efectiva.",
         "about_text_3": "A los 30 años, estoy en transición al área de Inteligencia Artificial y tengo la intención de realizar mi segunda formación académica, enfocándome en Machine Learning, IA Generativa y Procesamiento de Lenguaje Natural, preparándome para trabajar con énfasis en datos y sus aplicaciones prácticas.",

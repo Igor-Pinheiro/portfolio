@@ -289,10 +289,14 @@ section.sobre .flex {
 .sobre .txt-sobre h2 {
     font-size: 40px;
     line-height: 40px;
-    margin-bottom: 30px;
 }
 
 .sobre .txt-sobre h2 span {
+    color: #ffc107;
+    display: block;
+}
+
+.sobre .txt-sobre h2 span#about_title_2 {
     color: #ffc107;
     display: block;
 }

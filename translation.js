@@ -18,6 +18,14 @@ function changeLanguage(language) {
     if (translations[language]) {
         document.getElementById('greeting').textContent = translations[language].greeting;
         document.getElementById('description').textContent = translations[language].description;
+        document.getElementById('about_title').textContent = translations[language].about_title;
+        document.getElementById('about_text').textContent = translations[language].about_text;
+        document.getElementById('about_text_2').textContent = translations[language].about_text_2;
+        document.getElementById('about_text_3').textContent = translations[language].about_text_3;
+        document.getElementById('skills_title').textContent = translations[language].skills_title;
+        document.getElementById('skills_api').textContent = translations[language].skills_api;
+        document.getElementById('skills_soap').textContent = translations[language].skills_soap;
+        document.getElementById('skills_algorithms').textContent = translations[language].skills_algorithms;
     } else {
         console.error('Idioma não encontrado:', language);
     }
